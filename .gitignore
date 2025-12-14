@@ -1,0 +1,92 @@
+# ==========================================# ==========================================
+
+# DISPLAY MANAGER - GITIGNORE# DISPLAY MANAGER - GITIGNORE
+
+# Repositório Público - Apenas Documentação# Apenas documentação e releases públicos
+
+# ==========================================# ==========================================
+
+
+
+# IGNORAR TUDO POR PADRÃO# ============================================
+
+*# OCULTAR TODO O CÓDIGO FONTE
+
+# ============================================
+
+# PERMITIR APENAS DOCUMENTAÇÃO*.py
+
+!.gitignore*.pyc
+
+!README.md*.pyo
+
+!QUICKSTART.md*.pyd
+
+!LICENSE__pycache__/
+
+*.so
+
+# PERMITIR SCREENSHOTS*.dll
+
+!docs/*.dylib
+
+!docs/screenshots/
+
+!docs/screenshots/*.png# Ambiente virtual
+
+.venv/
+venv/
+ENV/
+env/
+
+# ============================================
+# OCULTAR ARQUIVOS DE BUILD
+# ============================================
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+*.bat
+
+# ============================================
+# OCULTAR CONFIGURAÇÕES E DADOS
+# ============================================
+*.json
+*.txt
+*.ps1
+
+# ============================================
+# OCULTAR PASTAS
+# ============================================
+languages/
+docs/
+.bat/
+DisplayManager_Portable/
+*.zip
+
+# ============================================
+# OCULTAR OUTROS ARQUIVOS
+# ============================================
+*.md
+!README.md
+!QUICKSTART.md
+!LICENSE
+
+# ============================================
+# ARQUIVOS DO SISTEMA
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ============================================
+# VISÍVEL NO GITHUB:
+# ============================================
+# ✅ README.md
+# ✅ QUICKSTART.md
+# ✅ LICENSE
+# ✅ requirements.txt
+# ✅ .gitignore
